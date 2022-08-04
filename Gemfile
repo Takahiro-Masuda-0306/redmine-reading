@@ -87,6 +87,10 @@ end
 group :development do
   gem 'listen', '~> 3.3'
   gem "yard"
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "pry-rails"
+  gem "pry-byebug"
 end
 
 group :test do
